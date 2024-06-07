@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Standard Form</title>
+</head>
+<body>
+  <h1>Course Registration Form</h1>
+  <form action="submit.html">
+<fieldset>
+  <table>
+    
+       <legend>Personal Details</legend>
+        <tr>
+          <td><label for="fname">First Name:</label></td>
+          <td><input type="text" id="fname"><br></td>
+        </tr>
+      <tr>
+        <td><label for="Sname">Surname Name:</label></td>
+        <td><input type="text" id="Sname"><br></td>
+      </tr>
+      <tr>
+        <td><label for="mob">Mobile Number:</label></td>
+        <td><input type="tel" id="mob"><br></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email"><br></td>
+      </tr>
+      <tr>
+        <td><label for="pwd">Password:</label></td>
+        <td><input type="password" id="pwd"><br></td>
+      </tr>
+      
+      <tr>
+        <td><label for="cpwd">Confirm Password:</label></td>
+        <td><input type="password" id="cpwd"><br></td>
+      </tr>
+      <tr>
+        <td><label for="dob">DOB:</label></td>
+        <td><input type="date" id="dob"><br></td>
+      </tr>
+
+      <tr>
+        <td>
+        <label for="gen">Gender:</label>
+        </td>
+        <td>
+        <input type="radio" id="male" name="ge">
+        <label for="gen">Male</label>
+        <input type="radio" id="female" name="ge">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="ge">
+        <label for="other">Other</label>
+      </td>
+      </tr>
+      <tr>
+        <td><label for="con">Select Country:</label></td>
+        <td>
+          <select>
+            <option >India</option>
+            <option >USA</option>
+            <option >China</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="img">Uploade Picture:</label></td>
+        <td><input type="file"  id="img"></td>
+      </tr>
+      <tr>
+        <td><input type="reset"></td>
+      </tr>
+    </form>
+  </table>
+</fieldset>
+<fieldset>
+  
+       <legend>Course Details</legend>
+
+      <tr>
+        <td>
+        <label for="cor">Select Course:</label>
+        </td>
+        <td>
+          <select>
+            <option >Java Full Stack Web</option>
+            <option >Python Full Stack Web</option>
+            <option >Mern Stack Web</option>
+          </select><br>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="dc">Delivery Course:</label></td>
+        <td>
+          <input type="radio" id="online" name="line">
+          <label for="online">Online</label>
+          <input type="radio" id="offline" name="line">
+          <label for="offline">Offline</label><br>
+         
+        </td>
+      </tr>
+      <tr>
+        <td><label for="img">Comments</label><br>
+      <textarea name="" id="" cols="15" rows="4"></textarea></td><br><br>
+      <tr>
+        <td><input type="submit"></td>
+      </tr>
+  </table>
+</fieldset>
+</form>
+</body>
+</html>
